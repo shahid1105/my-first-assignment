@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #FFFFFF;
+}
+/* header section style */
+header{
+    background-image: url("images/banner/banner2.png");
+    background-repeat: no-repeat;
+}
+.header-section{
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
+    text-align: right;
+}
+/* All Thinks Are Possible If You believe */
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 216px;
+    padding-right: 230px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+}
+.header-description{
+    font-weight: 400;
+    font-size: 18px;
+    /* padding-right: 230px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    padding-left: 876px; */
+    padding: 24px 230px 32px 876px;
+    text-align: justify;
+    text-align: right;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 25px;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    
+}
+.btn-alignment{
+    text-align: right;
+    padding-right: 230px;
+}
+
+/* image and My failures of previous year section style*/
+
+main{
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
+}
+
+.image-person-section{
+    padding-top: 130px;
+}
+.totall-part{
+    display: flex;
+    padding-left: 206px;
+}
+.image-person-part{
+    width: 569px;
+    height: 723.3px;
+}
+.failures-part{
+    padding-top: 250px;
+    padding-left: 87px;
+}
+.failures-heading-title{
+    font-weight: 700;
+    font-size: 40px;
+    color:  #151414;
+    padding-bottom: 24px;
+}
+.failures-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 322px;
+    padding-bottom: 16px;
+}
+ol li{
+    padding-bottom: 10px;
+}
+
+/* my plan section style */
+.my-plan-section{
+    margin-top: 130px;
+}
+#my-plan-headline{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.my-plan{
+    display: flex;
+    padding: 20px 0px 0 230px;
+}
+#web-development{
+    padding-top: 60px;
+}
+.my-plan-details{
+    width: 218px;
+    height: 197px;
+    padding-left: 85px;
+    padding-top: 50px;
+}
+.my-plan img{
+    width: 92.96px;
+    height: 92.96px;
+    padding: 0 0 20px 25px;
+}
+.my-plan-title{
+    font-size: 30px;
+    text-align: start;
+}
+.my-plan-statement{
+    font-size: 25px;
+}
+
+/* Always keep a positive mindset section */
+
+.positive-mindset{
+    width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    /* background-color:red; */
+    margin-left: 230px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #e022f1 0%, rgba(14, 13, 13, 0) 100%);
+}
+.mindset-title{
+    color:#FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 60px 0 24px 65px;
+
+
+}
+.btn-positive-mindset{
+    color:  #FF5959;
+    font-weight: 400;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 25px;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: 65px;
+}
+
+/* footer section style */
+
+/* left part */
+
+footer{
+    color: #FFFFFF;
+    width: 1600px;
+    height: 577px;
+    margin-top: 1100px;
+    background-color: #151414;
+
+}
+.footer-section{
+    display: flex;
+}
+.footer-left-block{
+    padding: 130px 885px 130px 230px;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 16px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+.email{
+    padding-bottom: 16px;
+}
+.phone-number{
+    padding-bottom: 32px;
+}
+.social-platform{
+    display: flex;
+}
+.social-place{
+    padding-left: 18px;
+}
+
+/* right part */
+/* footer-right-block */
+
+/* .footer-subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+.input-field-email{
+    padding-top: 20px;
+}
+.submit-btn{
+    padding-top: 20px;
+} */
