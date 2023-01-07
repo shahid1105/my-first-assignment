@@ -167,8 +167,6 @@ ol li{
 
 /* footer section style */
 
-/* left part */
-
 footer{
     color: #FFFFFF;
     width: 1600px;
@@ -179,46 +177,50 @@ footer{
 }
 .footer-section{
     display: flex;
-}
-.footer-left-block{
-    padding: 130px 885px 130px 230px;
+    gap: 330px;
+    padding: 130px 230px;
 }
 .footer-title{
-    color: #F8F8F8;
     font-weight: 700;
     font-size: 45px;
     padding-bottom: 16px;
 }
 .footer-description{
     font-weight: 400;
-    font-size: 18px;
-    padding-bottom: 24px;
+    font-style: 18px;
+    text-align: justify;
 }
 .email{
+    padding-top: 24px;
     padding-bottom: 16px;
 }
 .phone-number{
     padding-bottom: 32px;
 }
-.social-platform{
-    display: flex;
-}
-.social-place{
-    padding-left: 18px;
+.footer-left-block a{
+    text-decoration: none;
+    padding-left: 20px;
 }
 
-/* right part */
-/* footer-right-block */
+/* footer right block */
 
-/* .footer-subscribe-title{
+.footer-right-title{
     font-weight: 600;
     font-size: 25px;
-    padding-top: 130px;
-    padding-bottom: 20px;
+    padding-bottom: 32px;
 }
 .input-field-email{
-    padding-top: 20px;
+    padding: 21px 158px 22px 21px;
 }
 .submit-btn{
-    padding-top: 20px;
-} */
+    color:  #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 20px;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: #5c55eb;
+    margin-top: 16px;
+}
