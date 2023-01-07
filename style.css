@@ -133,6 +133,50 @@ ol li{
 .my-plan-statement{
     font-size: 25px;
 }
+/* nije koro section style */
+
+.my-portfolio-section{
+    width: auto;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-top: 120px;
+}
+.my-portfolio-headline{
+    color: #FF5959;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.my-portfolio-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.my-portfolio{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 230px;
+    margin-right: 230px;
+    gap: 210px;
+}
+.recent-works-details img{
+    width: 100px;
+    height: 150px;
+    box-shadow: 10px 10px 50px gray;
+}
+.work-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+.work-details{
+    color: #151414;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+}
 
 /* Always keep a positive mindset section */
 
@@ -172,7 +216,7 @@ footer{
     color: #FFFFFF;
     width: 1600px;
     height: 577px;
-    margin-top: 1100px;
+    margin-top: 1630px;
     background-color: #151414;
 
 }
